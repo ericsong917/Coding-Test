@@ -32,5 +32,5 @@ int main(){
             dp[i]+=dp[i-2];
         dp[i]%=1000000;
     }
-    cout<<dp[word.length()-1]%1000000;
+    cout<<dp[word.length()-1];
 }
